@@ -23,10 +23,18 @@ public class Main {
         personTotal= personTotal + personTip;
 
         //Print statements are done
-        System.out.println("The total tip amount is $" + totalTip);
-        System.out.println("The total bill including tip is $" + totalBillTip);
-        System.out.println("The tip per person is $" + personTip);
-        System.out.println("The total per person is " + personTotal);
+        System.out.print("The total tip amount is $" );
+        System.out.format("%.2f", totalTip);
+        System.out.println();
+        System.out.print("The total bill including tip is $");
+        System.out.format("%.2f", totalBillTip);
+        System.out.println();
+        System.out.print("The tip per person is $");
+        System.out.format("%.2f", personTip);
+        System.out.println();
+        System.out.print("The total per person is ");
+        System.out.format("%.2f", personTotal);
+        System.out.println();
 
 
 
